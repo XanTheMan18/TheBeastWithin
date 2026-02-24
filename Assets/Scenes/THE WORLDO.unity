@@ -9497,6 +9497,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Gunfire: {fileID: 779633390}
+  handgun: {fileID: 229372311}
+  canFire: 1
 --- !u!4 &1139047945
 Transform:
   m_ObjectHideFlags: 0

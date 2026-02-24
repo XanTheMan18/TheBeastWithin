@@ -23,6 +23,8 @@ public class HandgunFire : MonoBehaviour
         Gunfire.Play();
         handgun.GetComponent<Animator>().Play("HandgunFire");
         yield return new WaitForSeconds(0.5f);
+        handgun.GetComponent<Animator>().Play("New State");
+        yield return new WaitForSeconds(0.1f);
         canFire = true;
     }
 }
