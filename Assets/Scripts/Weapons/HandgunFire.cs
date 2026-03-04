@@ -6,6 +6,7 @@ public class HandgunFire : MonoBehaviour
     [SerializeField] AudioSource Gunfire;
     [SerializeField] GameObject handgun;
     [SerializeField] bool canFire = true;
+    [SerializeField] GameObject ExtraCross;
     void Update()
     {
         if (Input.GetMouseButton(0)) 
@@ -21,9 +22,12 @@ public class HandgunFire : MonoBehaviour
     IEnumerator FiringGun()
     {
         Gunfire.Play();
+        ExtraCross.SetActive(true);
+        GlobalAmmo.handgunAmmoCount -= 1;
         handgun.GetComponent<Animator>().Play("HandgunFire");
         yield return new WaitForSeconds(0.35f);
         handgun.GetComponent<Animator>().Play("New State");
+        ExtraCross.SetActive(false);
         yield return new WaitForSeconds(0.1f);
         canFire = true;
     }
