@@ -7419,7 +7419,11 @@ Transform:
   m_PrefabInstance: {fileID: 204968441}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1211879180
+=======
+--- !u!1 &1215986017
+>>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
 =======
 --- !u!1 &1215986017
 >>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
@@ -7431,18 +7435,24 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1211879181}
   - component: {fileID: 1211879183}
   - component: {fileID: 1211879182}
   m_Layer: 0
   m_Name: GlobalObject
 =======
+=======
+>>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
   - component: {fileID: 1215986021}
   - component: {fileID: 1215986020}
   - component: {fileID: 1215986019}
   - component: {fileID: 1215986018}
   m_Layer: 0
   m_Name: Capsule (2)
+<<<<<<< HEAD
+>>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
+=======
 >>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7450,8 +7460,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1211879181
 =======
+=======
+>>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
 --- !u!136 &1215986018
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7529,12 +7542,16 @@ MeshFilter:
   m_GameObject: {fileID: 1215986017}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1215986021
+<<<<<<< HEAD
+>>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
+=======
 >>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1211879180}
   serializedVersion: 2
@@ -7576,6 +7593,8 @@ MonoBehaviour:
   ExtraCross: {fileID: 722215177}
   emptyGunSound: {fileID: 213217191}
 =======
+=======
+>>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
   m_GameObject: {fileID: 1215986017}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -7585,6 +7604,9 @@ MonoBehaviour:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
+=======
 >>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
 --- !u!1001 &1227301724
 PrefabInstance:
@@ -13948,11 +13970,17 @@ SceneRoots:
   - {fileID: 1403594992}
   - {fileID: 1844227145}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1977591748}
 =======
+=======
+>>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
   - {fileID: 116129526}
   - {fileID: 490810702}
   - {fileID: 1349852141}
   - {fileID: 1778169091}
   - {fileID: 1215986021}
+<<<<<<< HEAD
+>>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
+=======
 >>>>>>> ba52200c8f0ad28deb336874dd03bd6ecf0c3a94
