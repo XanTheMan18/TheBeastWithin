@@ -4377,7 +4377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a459bb4f540b0ff4ea164e4b88dfbc47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoCounter: {fileID: 0}
+  ammoCounter: {fileID: 320906216}
 --- !u!114 &728081546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4391,9 +4391,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Gunfire: {fileID: 1495720548}
-  handgun: {fileID: 0}
+  handgun: {fileID: 722215177}
   canFire: 1
-  ExtraCross: {fileID: 0}
+  ExtraCross: {fileID: 320906216}
   emptyGunSound: {fileID: 982394233}
 --- !u!4 &728081547
 Transform:
