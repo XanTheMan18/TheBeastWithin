@@ -4390,11 +4390,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313863d8f179d02419a4616985605c1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gunfire: {fileID: 0}
+  Gunfire: {fileID: 1495720548}
   handgun: {fileID: 0}
   canFire: 1
   ExtraCross: {fileID: 0}
-  emptyGunSound: {fileID: 0}
+  emptyGunSound: {fileID: 982394233}
 --- !u!4 &728081547
 Transform:
   m_ObjectHideFlags: 0
