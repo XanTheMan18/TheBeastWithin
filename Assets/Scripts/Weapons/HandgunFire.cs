@@ -7,14 +7,24 @@ public class HandgunFire : MonoBehaviour
     [SerializeField] GameObject handgun;
     [SerializeField] bool canFire = true;
     [SerializeField] GameObject ExtraCross;
+    [SerializeField] AudioSource emptyGunSound;
     void Update()
     {
         if (Input.GetMouseButton(0)) 
         {
             if(canFire == true)
             {
-                canFire = false;
-                StartCoroutine(FiringGun());
+                if(GlobalAmmo.handgunAmmoCount == 0){
+                    canFire = false;
+                    StartCoroutine(EmptyGun());
+
+                }
+                else {
+                     canFire = false;
+                     StartCoroutine(FiringGun());
+                }
+            
+               
             }
         }
     }
@@ -30,5 +40,12 @@ public class HandgunFire : MonoBehaviour
         ExtraCross.SetActive(false);
         yield return new WaitForSeconds(0.1f);
         canFire = true;
+    }
+    IEnumerator EmptyGun()
+    {
+        emptyGunSound.Play();
+        yield return new WaitForSeconds(0.6f);
+        canFire = true;
+
     }
 }
