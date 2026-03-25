@@ -344,12 +344,10 @@ public class FirstPersonController : MonoBehaviour
             
             if(Input.GetKeyDown(crouchKey) && holdToCrouch)
             {
-                isCrouched = false;
                 Crouch();
             }
             else if(Input.GetKeyUp(crouchKey) && holdToCrouch)
             {
-                isCrouched = true;
                 Crouch();
             }
         }
