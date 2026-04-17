@@ -3424,6 +3424,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4459864851508666809, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4459864851551516593, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
@@ -7694,6 +7698,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 918e83d5344bf8b418d25b35dfe32b42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetSceneName: 
+  destroyObjectOnTrigger: 0
+  delayBeforeSceneChange: 0
 --- !u!1 &220884147
 GameObject:
   m_ObjectHideFlags: 0
