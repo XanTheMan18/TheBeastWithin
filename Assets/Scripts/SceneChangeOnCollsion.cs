@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeOnCollision : MonoBehaviour
 {
-    [SerializeField] private string targetSceneName= "Dungeon";
+    [SerializeField] private string targetSceneName;
     [SerializeField] private bool destroyObjectOnTrigger = false;
     [SerializeField] private float delayBeforeSceneChange = 0f;
     
@@ -22,6 +22,7 @@ public class SceneChangeOnCollision : MonoBehaviour
                 hasTriggered = true;
                 TriggerSceneChange();
             }
+            ResetTrigger();
         }
     }
 
@@ -39,15 +40,18 @@ public class SceneChangeOnCollision : MonoBehaviour
         if (delayBeforeSceneChange > 0)
         {
             Invoke(nameof(ChangeScene), delayBeforeSceneChange);
+            Debug.Log($"1st if");
         }
         else
         {
             ChangeScene();
+            Debug.Log($"2nd if");
         }
 
         if (destroyObjectOnTrigger)
         {
             Destroy(gameObject);
+            Debug.Log($"Destroy");
         }
     }
 
@@ -56,6 +60,7 @@ public class SceneChangeOnCollision : MonoBehaviour
         if (!string.IsNullOrEmpty(targetSceneName))
         {
             SceneManager.LoadScene(targetSceneName);
+            Debug.Log($"Load Failed");
         }
         else
         {
