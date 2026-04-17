@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeOnCollision : MonoBehaviour
 {
-    [SerializeField] private string targetSceneName;
+    [SerializeField] private string targetSceneName= "Dungeon";
     [SerializeField] private bool destroyObjectOnTrigger = false;
     [SerializeField] private float delayBeforeSceneChange = 0f;
     
