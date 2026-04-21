@@ -8453,7 +8453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 918e83d5344bf8b418d25b35dfe32b42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneName: THE WORLDO
+  targetSceneName: Menu
   destroyObjectOnTrigger: 0
   delayBeforeSceneChange: 0
 --- !u!65 &579520312
