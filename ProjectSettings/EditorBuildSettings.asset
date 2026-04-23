@@ -17,9 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bagel.unity
     guid: 862d47ef790c780469a0d3c72feca0fe
-  - enabled: 1
-    path: Assets/Scenes/Win.unity
-    guid: 3829fe1dfde9a334f9c5a5b840e0e5d4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
