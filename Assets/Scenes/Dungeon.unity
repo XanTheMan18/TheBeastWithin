@@ -8903,7 +8903,7 @@ GameObject:
   - component: {fileID: 1335175128}
   - component: {fileID: 1335175127}
   - component: {fileID: 1335175126}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Glass Flooring (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12555,7 +12555,7 @@ GameObject:
   - component: {fileID: 1844227144}
   - component: {fileID: 1844227143}
   - component: {fileID: 1844227142}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Glass Flooring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
