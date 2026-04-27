@@ -27762,7 +27762,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1613356774}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41727a26c5a6c37418775b92b0b6cc21, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ff0ad6126a6f9a4b9ab44cb4d1a2f81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rayDistance: 100
@@ -27770,6 +27770,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   shootKey: 323
+  canFire: 1
 --- !u!1001 &1908122069
 PrefabInstance:
   m_ObjectHideFlags: 0

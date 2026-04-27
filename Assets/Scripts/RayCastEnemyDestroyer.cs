@@ -1,10 +1,12 @@
 using UnityEngine;
+using System.Collections;
 
 public class RaycastEnemyDestroyer : MonoBehaviour
 {
     [SerializeField] private float rayDistance = 100f;
     [SerializeField] private LayerMask enemyLayer;
     [SerializeField] private KeyCode shootKey = KeyCode.Mouse0;
+    [SerializeField] bool canFire = true;
 
     private Camera mainCamera;
 
@@ -15,10 +17,13 @@ public class RaycastEnemyDestroyer : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(shootKey))
+        if (canFire == true)
         {
-            CastRayAndDestroyEnemy();
-        }
+            if (Input.GetKeyDown(shootKey))
+            {
+                CastRayAndDestroyEnemy();
+            }
+        }   
     }
 
     private void CastRayAndDestroyEnemy()
