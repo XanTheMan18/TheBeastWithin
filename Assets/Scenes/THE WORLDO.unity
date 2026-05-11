@@ -8378,9 +8378,6 @@ PrefabInstance:
       addedObject: {fileID: 217322571}
     - targetCorrespondingSourceObject: {fileID: 8147212409868528794, guid: a24d4c2a3eb94d24399ad1a9d842b954, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 217322576}
-    - targetCorrespondingSourceObject: {fileID: 8147212409868528794, guid: a24d4c2a3eb94d24399ad1a9d842b954, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 217322577}
   m_SourcePrefab: {fileID: 100100000, guid: a24d4c2a3eb94d24399ad1a9d842b954, type: 3}
 --- !u!1 &217322569 stripped
@@ -8403,28 +8400,6 @@ MonoBehaviour:
   targetSceneName: Dungeon
   destroyObjectOnTrigger: 0
   delayBeforeSceneChange: 0
---- !u!64 &217322576
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 217322569}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4302494982723768524, guid: 18ff66df297ad0e4ca1478c9f5ebe3f1, type: 3}
 --- !u!65 &217322577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8440,7 +8415,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
